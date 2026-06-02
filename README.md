@@ -1,12 +1,14 @@
 # 🫀 Heart Disease Prediction System
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Best Accuracy](https://img.shields.io/badge/Best%20Accuracy-96.6%25%20Random%20Forest-2ea44f?style=flat-square)
 ![Dataset](https://img.shields.io/badge/Dataset-UCI%20Heart%20Disease-blue?style=flat-square)
 
 > An end-to-end machine learning application that predicts heart disease risk using 6 classification algorithms, deployed via Streamlit with live patient prediction.
+
+🔗 **[Live Demo → heartsdisease-predictor.streamlit.app](https://heartsdisease-predictor.streamlit.app/)**
 
 ---
 
