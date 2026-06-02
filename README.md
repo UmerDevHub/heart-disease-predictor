@@ -1,75 +1,55 @@
 # 🫀 Heart Disease Prediction System
-### Machine Learning (CSC354) — Semester Project
-**COMSATS Institute of Information Technology, Wah Campus**  
-**Instructor:** Yasmeen Khaliq | **Program:** BS(SE) - 6
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Best Accuracy](https://img.shields.io/badge/Best%20Accuracy-96.6%25%20Random%20Forest-2ea44f?style=flat-square)
+![Dataset](https://img.shields.io/badge/Dataset-UCI%20Heart%20Disease-blue?style=flat-square)
+
+> An end-to-end machine learning application that predicts heart disease risk using 6 classification algorithms, deployed via Streamlit with live patient prediction.
 
 ---
 
-## Project Overview
+## 📊 Model Results
 
-An end-to-end machine learning application that predicts heart disease risk
-using 6 classification algorithms from lab coursework, deployed via Streamlit.
-
----
-
-## How to Run
-
-### Step 1 — Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 2 — Run the app
-```bash
-streamlit run app.py
-```
-
-The app will open at: `http://localhost:8501`
+| Algorithm | Accuracy |
+|-----------|----------|
+| 🥇 Random Forest | **96.6%** |
+| Logistic Regression | 90.7% |
+| SVM | 90.7% |
+| Naive Bayes | 86.8% |
+| Decision Tree | 83.9% |
+| KNN | 83.9% |
 
 ---
 
-## Project Structure
+## 📁 Dataset
 
-```
-heart_disease_project/
-│
-├── app.py              ← Main Streamlit application
-├── heart.csv           ← Dataset (UCI Heart Disease)
-├── requirements.txt    ← Python dependencies
-└── README.md           ← This file
-```
+- **Source:** UCI Heart Disease Dataset
+- **Records:** 1,025 patients
+- **Features:** 13 clinical features (age, cholesterol, blood pressure, etc.)
+- **Target:** Binary — `0` = No Disease, `1` = Disease
 
 ---
 
-## ML Algorithms Used (From Labs)
+## 🖥️ App Pages
 
-| Algorithm          | Lab Source | Accuracy |
-|--------------------|------------|----------|
-| Logistic Regression| Lab 4      | ~90.7%   |
-| Decision Tree      | Lab 5      | ~83.9%   |
-| Random Forest      | Lab 5      | ~96.6%   |
-| SVM                | Lab 8      | ~90.7%   |
-| KNN                | Lab 7      | ~83.9%   |
-| Naive Bayes        | Lab 6      | ~86.8%   |
-
----
-
-## App Pages
-
-1. **Home** — Problem overview, dataset summary, ML pipeline steps
-2. **Dataset & EDA** — Data preview, histograms, heatmap, boxplots
-3. **Model Training** — Algorithm comparison, confusion matrices, feature importance
-4. **Predict** — Live patient prediction with any model
-5. **Report** — Full project report (all 9 phases)
+| Page | Description |
+|------|-------------|
+| 🏠 Home | Problem overview, dataset summary, ML pipeline |
+| 📈 Dataset & EDA | Data preview, histograms, heatmap, boxplots |
+| 🤖 Model Training | Algorithm comparison, confusion matrices, feature importance |
+| 🔮 Predict | Live patient prediction — enter vitals, get instant result |
+| 📄 Report | Full project report across all 9 phases |
 
 ---
 
-## Project Phases Covered
+## ⚙️ Project Phases
 
 - [x] Phase 1: Problem Definition
 - [x] Phase 2: Dataset Collection
 - [x] Phase 3: Data Preprocessing
-- [x] Phase 4: EDA
+- [x] Phase 4: Exploratory Data Analysis
 - [x] Phase 5: Feature Engineering
 - [x] Phase 6: Model Building (6 algorithms)
 - [x] Phase 7: Model Evaluation
@@ -78,9 +58,31 @@ heart_disease_project/
 
 ---
 
-## Dataset
+## 🚀 Run Locally
 
-- **Source:** UCI Heart Disease Dataset
-- **Records:** 1025
-- **Features:** 13 clinical features
-- **Target:** 0 = No Disease, 1 = Disease
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
+
+App opens at: `http://localhost:8501`
+
+---
+
+## 📂 Project Structure
+
+```
+heart_disease_project/
+├── app.py              ← Main Streamlit application
+├── heart.csv           ← UCI Heart Disease dataset
+├── models/             ← Saved trained models
+├── requirements.txt    ← Python dependencies
+└── README.md           ← Documentation
+```
+
+---
+
+*ML Algorithms course project — COMSATS Institute of Information Technology, Wah Campus*
